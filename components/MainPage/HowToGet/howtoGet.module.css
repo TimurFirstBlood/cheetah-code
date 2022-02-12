@@ -1,0 +1,132 @@
+.howToget{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    /* background: violet; */
+    padding: 20px;
+}
+.content > img{
+    /* padding-top: 40px; */
+    height: 869px;
+    /* background: url('../../../public/image/howToGet/snake.jpg');
+    height: 968px; */
+    width: 1111px;
+    margin: 0 auto;
+}
+.content{
+    /* padding: 0 156px; */
+    position: relative;
+}
+.contentInfo{
+    display: grid;
+    justify-content: center;
+    position:absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.infoTable{
+    display: grid;
+    /* justify-content: center; */
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: repeat(3 , auto);
+    gap: 60px;
+    row-gap: 145px;
+}
+.tableItem{
+    gap: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.tableItem img {
+    margin: 0 auto;
+}
+.tableItem p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2A314A;
+}
+.finish{
+    display: flex;
+    padding-top: 66px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.finish p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 130%;
+    color: #00BAD4;
+}
+@media screen and (max-width: 900px) {
+
+    .content > img{
+        height: 1200px;
+        /* height: 968px;  */
+        width: unset;
+        margin: 0 auto;
+        padding-top: 87px;
+
+    }
+    .infoTable{
+        display: grid;
+        /* justify-content: center; */
+        margin: 0 auto;
+        width: 100%;
+        grid-template-columns: repeat(2 , auto);
+        row-gap: 72px; 
+        column-gap: 0;
+    }
+    .tableItem p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #2A314A;
+    }
+    .howToget h2{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 130%;
+        color: #2A314A;
+    }
+    .finish{
+        padding-top: 27px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: unset;
+    }
+    .finish img{
+        justify-self: center;
+        grid-row: 1;
+    }
+    .finish p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #323232;
+    }
+    .howToget{
+        padding-bottom: 65px;
+    }
+   
+}

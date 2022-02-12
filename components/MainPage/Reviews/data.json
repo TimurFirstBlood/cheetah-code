@@ -1,0 +1,46 @@
+{
+    "data": [
+      {  
+          "img": "/image/Reviwes/Florence.jpg",
+          "text": "All good. Thanks Cheetah Code for a great website for my shop."
+      },
+      {  
+        "img": "/image/Reviwes/Barry.jpg",
+        "text": "I needed a website for my company and these guys did a really good job. Great approach, nice price. Thanks."
+      },
+      {  
+        "img": "/image/Reviwes/Brent.jpg",
+        "text": "Great company with great vision. I really appreciate their help."
+      },
+      {  
+        "img": "/image/Reviwes/David.jpg",
+        "text": "Thanks. Good job."
+      },
+      {  
+        "img": "/image/Reviwes/Edward.jpg",
+        "text": "If you are looking for a company that will create a website quickly but professionally, call them."
+      }
+    ],
+    "dataBottom": [
+      {  
+        "img": "/image/Reviwes/Fred.jpg",
+        "text": "I thought that my shop needed a website and called this company. The guy I spoke to was really really nice and he answered all my questions. Later my website was ready and it is working really well."
+      },
+      {  
+        "img": "/image/Reviwes/Jenna.jpg",
+        "text": "Thanks for the fast service. All good."
+      },
+      {  
+        "img": "/image/Reviwes/Larry.jpg",
+        "text": "Efficient company. I liked our cooperation."
+      },
+      {  
+        "img": "/image/Reviwes/Lily.jpg",
+        "text": "If you are looking for somebody to help you with your business website, these guys are a perfect choice. Really recommend"
+      },
+      {
+        "img": "/image/Reviwes/Samantha.jpg",
+        "text": "I am really satisfied with my new website. Thanks, guys. I am your loyal client."
+      }
+    ]
+}

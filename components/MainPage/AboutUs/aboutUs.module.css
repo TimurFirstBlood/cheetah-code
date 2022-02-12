@@ -1,0 +1,157 @@
+.statistBlock{
+    
+}
+
+.aboutUs{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 85px;
+ 
+}
+.aboutUs h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 130%;
+    color: #2A314A;
+}
+
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    color: #00BAD4;
+}
+.infoText{
+    font-family: Andika;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #3E4345;
+}
+.info{
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+}
+.statistBlockLine{
+    display: grid;
+    grid-template-columns: 255px auto 255px;
+    justify-content: center;
+}
+
+.statistBlockLine div {
+    padding: 20px 0;
+    display: grid;
+    justify-content: center;
+}
+
+.conturTitle p:first-child{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    /* border: 2px solid #00BAD4; */
+    box-sizing: border-box;
+    color: #fff;
+    -webkit-text-stroke: 2px #00BAD4;
+}
+.conturTitle p:first-child:hover{
+    color: #2A314A;
+    -webkit-text-stroke: unset;
+   
+}
+.statistBlockLine p:last-child{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #999899;
+
+}
+
+.regularTitle p:first-child{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #2A314A;
+}
+.regularTitle p:first-child:hover{
+    -webkit-text-stroke: 2px #00BAD4;
+    color: #fff;
+   
+}
+
+.statistBlock hr {
+    margin: 0;
+    background: #C6CACC;
+    opacity: 0.5;
+}
+.list{
+    display: grid;
+    gap: 20px;
+}
+@media screen and (max-width: 900px) {
+    .aboutUs{
+        padding: 20px;
+        /* max-width: unset; */
+    }
+    .info{
+        grid-template-columns: unset;
+    }
+    .statistBlockLine{
+        display: grid;
+        grid-template-columns: 158px auto 158px;
+        justify-content: center;
+    }
+    .conturTitle p:first-child{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 100%;
+        
+    }
+    .regularTitle p:first-child{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 100%;
+       
+    }
+
+    .aboutUs h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 130%;
+        color: #2A314A;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .infoText{
+        line-height: 140%;
+    }
+ 
+}

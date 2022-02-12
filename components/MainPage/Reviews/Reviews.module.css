@@ -1,0 +1,99 @@
+.Reviwes{
+    max-width: 1280px;
+    
+    margin: 0 auto;
+}
+.wrap{
+    background: #191D2B;
+    overflow: hidden;
+    /* height: 500px; */
+}
+.wrap h2 {
+    padding:  50px 0 30px 85px ;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    color: #FFFFFF;
+    line-height: 130%;
+}
+.listElement{
+    width: 368px;
+    padding: 24px;
+    box-shadow: 0px 16px 24px rgba(8, 35, 48, 0.08), 0px 6px 12px rgba(8, 35, 48, 0.14);
+    border-radius: 8px;
+    display: grid;
+    gap: 8;
+}
+
+.titleInfo{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+}
+
+.titleInfo > div > p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.titleInfo > div {
+    align-items: center;
+    gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+}
+.titleInfo img:first-child{
+    border: solid 2px #fff;
+    border-radius: 12px;
+}
+.listElement > p{
+    font-family: Andika;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+    color: #C6CACC;
+}
+
+.rewiversList{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(6, auto);
+    align-items: flex-end;
+}
+.rewiversListBottom{
+    position: absolute;
+    left: 200px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(6, auto);
+    align-items: flex-start;
+}
+
+.marquee {
+    position: relative;
+    display: grid;
+    gap: 24px;
+}
+.wrapList{
+    height: 264px;
+}
+@media screen and (max-width: 900px) {
+
+    .wrap h2{
+        padding: 20px 32px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,112 @@
+.wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 85px;
+}
+.wrap h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 130%;
+    color: #2A314A;
+}
+.dropForm{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(42, 53, 80, 0.25);
+    border-radius: 8px;
+}
+.listElem p, .listElemOpen p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    padding: 21px 40px;
+
+    color: #3E4345;
+}
+.dropForm img {
+    padding-right: 40px;
+}
+.listElem, .listElemOpen{
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    border-radius: 8px;
+    /* border-bottom: 1px solid #3E4345; */
+}
+.listElemOpen{
+    transition: .5s;
+    background: #F2FBFD;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.elemList{
+    display: grid;
+    gap: 15px;
+}
+
+.open{
+    font-family: Andika;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    letter-spacing: 0.02em;
+    color: #3E4345;
+    padding: 21px 40px;
+    font-size: 20px;
+    transition: .5s;
+}
+.hide{
+    
+    font-size: 0;
+    color: #fff;
+    transition: .5s;
+}
+.dropContent{
+    overflow: hidden;
+    transition: .5s;
+}
+
+.closeContent{
+    height: 0em;
+    transition: .5s;
+}
+.faq{
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 900px) {
+    .wrap{
+        padding: 20px;
+    }
+    .wrap h2 {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .listElem p, .listElemOpen p {
+        font-family: Andika;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: #3E4345;
+        padding: 6px 20px;
+    }
+    .open{
+        padding: 6px 20px;
+    }
+}
