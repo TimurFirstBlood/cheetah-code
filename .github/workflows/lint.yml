@@ -1,8 +1,8 @@
-name: Build
+name: Lint
 on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - run: npm run ci
-      - run: npm run build
+      - run: npm run lint
