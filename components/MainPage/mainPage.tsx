@@ -7,7 +7,6 @@ import React from "react";
 import Preferences from "./Preferences/preferences";
 import OurPrice from "./OurPrice/OurPrice";
 import Faq from "./FAQ/faq";
-import Reviews from "./Reviews/Reviews";
 import Footer from "./Footer/footer";
 
 export default function mainPage() {
@@ -21,7 +20,6 @@ export default function mainPage() {
       <Preferences/>
       <OurPrice/>
       <Faq/>
-      {/* <Reviews/> */}
       <Footer/>
     </>
   )

@@ -36,11 +36,6 @@ export default function Header() {
       name: "FAQ",
       href: "#faq"
     },
-    // {
-    //   name: "Reviews",
-    //   href: "#revivers"
-    // }
-
   ]
 
   const [menuOpen, setMenuOpen] = useState(false)
